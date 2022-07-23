@@ -5,5 +5,5 @@
    tasks:
     - name: install
       yum:
-       name:
-         - httpd 
+       name: httpd
+       state: present
